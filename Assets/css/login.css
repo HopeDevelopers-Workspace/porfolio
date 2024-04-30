@@ -1,0 +1,150 @@
+:root {
+    --color-primary: #7380ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: #848bc82e;
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+
+    --color-primary1: #1c1d3c;
+    --color-primary2: #89734c;
+    --color-text1: #333;
+    --color-white: #fff;
+    --color-footer: #111;
+
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+/* ================= DARK THEME VARIABLES =============== */
+
+.dark-theme-variables {
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+
+.login-el {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.login-el form {
+    display: flex;
+    backdrop-filter: blur(6px);
+    justify-content: center;
+    flex-direction: column;
+    width: 21rem;
+    height: 29rem;
+    border-radius: 0.2rem;
+   border: 0.2rem solid #fff;
+   padding-top: 2rem;
+}
+
+.login-el form .prof-pic{
+    width: 3rem;
+    aspect-ratio: 0.9;
+    background-image: url(../Images/me.jpg);
+    position: absolute;
+    top: 0.7rem;
+    left: 9rem;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1rem solid #fff;
+}
+
+.login-el form .username,
+.password,
+.submit {
+    margin: 1.5rem;
+    border: none;
+}
+
+
+.login-el form .password,
+.username {
+    background: #e8f0fe;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.login-el form .submit {
+    background: darkgreen;
+    border: none;
+    color: #fff;
+    padding: 0.7rem;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.login-el form label {
+    margin-left: 1.9rem;
+    color:#fff;
+    font-family: sans-serif;
+}
+
+
+.login-el form p {
+    text-align: center;
+    font-family: sans-serif;
+    color: #2bff00;
+    font-size: 0.7rem;
+}
+
+.login-el form p a {
+    text-decoration: underline;
+    text-underline-offset: 0.1rem;
+    color: rgb(255, 255, 255);
+}
+
+#error {
+    margin-top: 1rem;
+}
+
+
+.show-pass {
+    width: 100%;
+    margin-left: 2rem;
+    display: flex;
+    gap: 0;
+}
+
+.lable label{
+ position: absolute;
+ left: 1.9rem;
+}
+
+
+
